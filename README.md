@@ -5,7 +5,7 @@ Sistema completo para la gestión de reservas de salas de estudio en la Universi
 
 ## Características
 - Gestión de participantes, salas y reservas
-- Sistema de sanciones por inasistencia
+- Sistema de sanciones por inasistencia  
 - Reportes avanzados para análisis
 - Interfaz web con Streamlit
 
@@ -19,13 +19,3 @@ app/
 ├── database/queries.py
 ├── services/base_service.py
 └── utils/validators.py
-
-
-### **2. requirements.txt**
-- **Dónde:** Directamente en la raíz
-- **Contenido:**
-```txt
-streamlit==1.28.0
-pymysql==1.1.0
-python-dotenv==1.0.0
-pandas==2.0.3
